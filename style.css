@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+}
+
+.container {
+    margin-bottom: 50px;
+}.carousel .carousel-indicators button {
+    background-color: yellow;
+}
+
+.carousel .carousel-indicators .active {
+    background-color: orange;
+}
+.backgroundimage {
+    background-image: url("bg-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+
+    
+}
+.backgroundimage1{
+    background-image: url("bg-2.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+
+}
+.buybutton {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.carousel-item{
+    padding: 10px 20px;
+}
+#smartphone{
+    margin-top: 150px;
+}
+#laptop{
+    margin-top: 150px;
+}
+#smartphone a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: orangered;
+}
+#laptop a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: orangered;
+}
+
+.card {
+    border: none;
+}
+
+.carddeck .card img {
+    transform: scale(.7);
+    transition: transform .9s ease;
+}
+.carddeck .card:hover img {
+    transform: scale(.9);
+}
+.card-body{
+    text-align: center;
+}
+.card-footer{
+    border: none;
+    text-align: center;
+}
+.catagories{
+    margin-top: 150px;
+    text-align: center;
+    align-content: center;
+}
+
+#horizontalruler{
+    width: 125px; 
+        height: 8px;
+        margin: 0 auto ;
+        border-radius: 25px;
+        background-image: linear-gradient(to right, #ff0000, #ffff00,  #ff0000);
+}
+
+.bagcard{
+    padding: 20px 30px;
+    margin: 25px auto;
+    border-radius: 20px 0 20px 0 ;
+    box-shadow: 10px 4px 8px 10px grey;
+    background-color: aliceblue;
+    transition: transform .9s ease;
+} 
+
+.bagcard:hover{
+    transform: scale(1.1);
+}
+
+.perfumecard{
+    padding: 20px 30px;
+    margin: 25 auto;
+    border-radius: 20px 0 20px 0 ;
+    box-shadow: 10px 4px 8px 10px grey;
+    background-color: aliceblue;
+    transition: transform .9s ease;
+} 
+
+.perfumecard:hover{
+    transform: scale(1.1);
+}
+
+.shoecard{
+    padding: 20px 30px;
+    margin: 25px auto;
+    border-radius: 20px 0 20px 0 ;
+    box-shadow: 10px 4px 8px 10px grey;
+    background-color: aliceblue;
+    transition: transform .9s ease;
+} 
+
+.shoecard:hover{
+    transform: scale(1.1);
+}
+
+#footer {
+    background-color: brown;
+    color: white;
+    padding: 15px 25px;
+    border-top: 5px solid black;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}
+#about{
+    text-align: center;
+    background-color: brown;
+    padding: 10px 20px;
+    color: white;
+}
