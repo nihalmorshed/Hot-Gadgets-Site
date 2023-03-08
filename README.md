@@ -1,5 +1,5 @@
 # Hot-Gadgets-Site
-It's a landing page for online e-commerce gadgets store site from where users can buy different types of gadgets like smartphones, laptops from this online shop. 
+It's a landing page for online e-commerce gadgets store site from where users can buy different types of gadgets like smartphones, laptops. 
 # Technology Used: <br>
 <ul>
 <li>HTML </li>
